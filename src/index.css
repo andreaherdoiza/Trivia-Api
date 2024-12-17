@@ -1,0 +1,79 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('assets/images/question-mark-1084522_1280.jpg'); /* Imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #4a4e69; /* Gris oscuro suave */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 100%;
+  max-width: 1200px; /* Aumentar el ancho máximo del contenedor raíz */
+  padding: 20px;
+}
+
+.panel-opacity {
+  background-color: rgba(255, 255, 255, 0.411) !important; /* Transparencia */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Desenfoque del fondo */
+}
+
+
+.p-panel .p-panel-content {
+  background-color: transparent !important; /* Asegura que el contenido del Panel también sea transparente */
+}
+
+.p-panel .p-panel-header {
+  background-color: rgba(108, 92, 231, 0.9); /* Fondo del header con ligera transparencia */
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 12px 12px 0 0;
+}
+
+.p-button {
+  background-color: #6c5ce7; /* Morado pastel fuerte */
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.p-button:hover {
+  background-color: #a29bfe; /* Morado pastel más claro */
+}
+
+.p-field label {
+  font-weight: bold;
+  color: #6c5ce7; /* Morado pastel fuerte */
+}
+
+.p-inputtext, .p-dropdown {
+  border-radius: 8px;
+  border: 1px solid #a29bfe; /* Borde morado pastel */
+}
+
+.header-opacity {
+  background-color: rgba(108, 92, 231, 0.9); /* Morado pastel fuerte con transparencia */
+  color: #ffffff; /* Texto blanco */
+  border-radius: 16px; /* Bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  font-size: 1.5rem; /* Tamaño de fuente más grande */
+  font-weight: bold;
+  padding: 20px; /* Padding interno */
+}
+
+.panel-opacity {
+  background-color: rgba(255, 255, 255, 0.4) !important; /* Transparencia */
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+  backdrop-filter: blur(12px); /* Desenfoque del fondo */
+  padding: 30px; /* Padding interno más amplio */
+}
